@@ -33,7 +33,12 @@ public class Ejemplo022 {
                 System.out.printf("Ingrese el valor del areglo en la fila "
                         + "%s en la columna %s\n",f,c);
                 v = entrada.nextInt();
+           if( v >= 10  && v % 2==0){    
+               v = 0;
+            }
                 arreglo1[f][c] = v;
+                
+                
                
             }
         }
@@ -49,3 +54,4 @@ public class Ejemplo022 {
     }
 
 }
+//cuando es par mayor = 10 es 0
