@@ -20,7 +20,11 @@ public class Ejemplo002 {
         for (int f = 0; f < arreglo.length; f++) {
             for (int c = 0; c < arreglo[f].length; c++) {
                 if (f == c) {
+                    // si la fila y la columna son iguales estos se suman, 
+                    //eso hacer que se sumen todos los numeros de la diagonal 
+                 
                     suma = suma + arreglo[f][c];
+                    
                 }
             }
         }
