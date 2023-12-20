@@ -12,21 +12,21 @@ public class Ejemplo002 {
 
     public static void main(String[] args) {
         int suma = 0;
-        int total ;
+        int total = 0;
         int[][] arreglo = {{10, 41, 40},
         {1, 2, 3},
         {1, 12, 4}};
         // iniciamos el arreglo 
         for (int f = 0; f < arreglo.length; f++) {
             for (int c = 0; c < arreglo[f].length; c++)
-            //iniciamos un ciclo for para que pueda recorer las lineas y las 
+            //iniciamos un ciclo for para que pueda recoger las filas y las 
                 //columnas una por una 
             {
                 if (arreglo[f][c] <= 10 && arreglo[f][c] % 2 == 0) {
                     // en este if lo que hago es regojer todos los numeros
                     //< = a 10 y pares
                     total = suma + arreglo[f][c];
-                    // estos se suman, cada ves se
+                    // al entrar al if , cada ves se
                     //recorre el arreglo se van sumando los numeros < = a 10 y 
                     //pares
                 }
